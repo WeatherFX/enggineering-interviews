@@ -126,9 +126,18 @@ Apache Pig
 
 Pig is a high-level, imperative-style programming language that is great for data munging.  As a relational algebra, it looks a lot like SQL but is much better for chaining operations together into more complicated workflows.
 
-We installed pig, python, and java (using [Mortar](https://www.mortardata.com/products/mortar-free)) on an EC2 instance that you can use.  After we give you everything you'd need to know to login (as user ```nbs```), you'll find everything you need in the directory ```/home/nbs/data_engineer_challenge```.
+We created an EC2 image with pig, python, and java (using [Mortar](https://www.mortardata.com/products/mortar-free)). Here's how you can launch an EC2 instance:
 
-We started on a Pig script for you that will read the input data from the correct place (```~/data_engineer_challenge/data/sentiment```) and count the number of times each artist is mentioned.  Here is an example of how to run that script as well as the expected output:
+- login to https://console.aws.amazon.com/ec2 and proceed to "Launch Instance"
+- click on "Community AMIs" and search for "nbs"
+- select the nbs-recruiting - ami-3e72ee56
+- select the "m3.medium" instance size and follow the steps to launch the instance
+
+Note: m3.medium costs $0.07/hr ($1.68/day). NBS will send you a $5 amazon gift card to cover the cost.
+
+Once the instance launches, you can log into it via ssh (as user ```nbs```, password ```1d4396ae44931bd626b38448824c0d20```), and you'll find everything you need in the directory ```/home/nbs/data_engineer_challenge```.
+
+We started a Pig script for you that will read the input data from the correct place (```~/data_engineer_challenge/data/sentiment```) and count the number of times each artist is mentioned.  Here is an example of how to run that script as well as the expected output:
 
 ```
 nbs@ip-10-169-43-241:~$ cd data_engineer_challenge/
