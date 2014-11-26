@@ -129,8 +129,8 @@ Pig is a high-level, imperative-style programming language that is great for dat
 We created an EC2 image with pig, python, and java (using [Mortar](https://www.mortardata.com/products/mortar-free)). Here's how you can launch an EC2 instance:
 
 - login to https://console.aws.amazon.com/ec2 and proceed to "Launch Instance"
-- click on "Community AMIs" and search for "nbs"
-- select the nbs-recruiting - ami-3e72ee56
+- click on "Community AMIs" and search for "nbs" (or "nbs-challenge" if there are many results)
+- select the nbs-challenge - ami-2a66fa42
 - select the "m3.medium" instance size and follow the steps to launch the instance
 
 Note: m3.medium costs $0.07/hr ($1.68/day). NBS will send you a $5 amazon gift card to cover the cost.
