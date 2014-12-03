@@ -66,13 +66,16 @@ And we'd conclude that Meghan Trainor and Sam Smith make for the best pair.
 
 ##Question 2: Making Decisions
 
-Assume you run your own record label and your job is to determine what proposed male/female duet is worth producing music for.  You'll encounter these opportunities once a week over the course of a year and each time you'll have to make a decision right away, and you can only choose one song to produce that year.  For example, you might run into a chance to produce a duet for Micheal Buble and Rihanna in week 1 and then another for Kenny Chesney and Iggy Azalea in week 2 but you can't want until the end of week 2 to decide -- each opportunity expires at the end of the week in which it arose.
+Assume you run your own record label and your job is to determine what proposed male/female duet is worth producing music for.  You'll encounter these opportunities once a week over the course of a year and each time you'll have to make a decision right away, and you can only choose one song to produce that year (and you'll never be offered the opportunity to work with the same duet twice).  For example, you might run into a chance to produce a duet for Micheal Buble and Rihanna in week 1 and then another for Kenny Chesney and Iggy Azalea in week 2 but you can't want until the end of week 2 to decide -- each opportunity expires at the end of the week in which it arose.
 
 Finally, assume that the metric calculated in Question 1 for sentiment dissonance is a perfect estimator of success.  Each time you run into the chance to produce a song for a duet, you can calculate the value from Question 1 for it and use that to make your decision.
 
 Given this, write a program (in python, java, or bash) that will take strings on stdin in the form ```female.artist,male.artist``` (one such pair per line) and output a decision as 'yes' or 'no' for each pair.  This program can assume that only artists seen in the input dataset for Question 1 will be used and that you can do anything within the program you'd like, but you must make a decision for each pair at the time it is seen (i.e. you can't look at them all and then decide).
 
-*Note:* No Googol-ing solutions for this please!  We'd much prefer your own approach.
+*Notes:* 
+
+1. No Googol-ing solutions for this please!  We'd much prefer your own approach.
+2. Remember, you'll never see an offer for the same duet twice in this problem.
 
 
 ##Question 3: Cohort Sentiment (Optional)
