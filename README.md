@@ -132,6 +132,7 @@ Pig is a high-level, imperative-style programming language that is great for dat
 We created an EC2 image with pig, python, and java (using [Mortar](https://www.mortardata.com/products/mortar-free)). Here's how you can launch an EC2 instance:
 
 - login to https://console.aws.amazon.com/ec2 and proceed to "Launch Instance"
+- select the "N. Virgina" region from the dropdown in the top right (otherwise the correct AMI won't be available)
 - click on "Community AMIs" and search for "nbs" (or "nbs-eng-challenge" if there are many results)
 - select the "nbs-eng-challenge" image (AMI ami-42bd232a)
 - select the "m3.medium" instance size and follow the steps to launch the instance
