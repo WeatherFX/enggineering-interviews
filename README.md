@@ -38,7 +38,7 @@ user4     | Garth Brooks | male | -1 |
 Questions
 ==========
 
-These questions all pertain to the data above and we only ask for answers to the first two, but if you're enjoying the problem then we would love to see answers to the others as well.
+These questions all pertain to the data above and we only ask for answers to the first two, but if you're enjoying the problem then we would love to see answers to the others as well.  **Please submit an accompanying writeup to document your thought process when approaching the problems.**  When working in a collaborative environment, being able to explain yourself and justify your reasoning is often just as important as the work itself.
 
 ##Question 1: Sentiment Dissonance
 
