@@ -72,6 +72,6 @@ And we'd conclude that Meghan Trainor and Sam Smith make for the best pair.
 *Notes*:
 
 1. There is no "right" answer to this question so feel free to take any approach you want!
-2. You do **not** have to use Pig for this -- you can use anything you want like java, python + pandas, R, SQL, Scala, Spark or whatever you think would be best
+2. You do **not** have to use Spark for this -- you can use anything you want like java, python + pandas, R, SQL, Scala, Spark or whatever you think would be best
 2. The _user.name_ field is irrelevant for this question
 
