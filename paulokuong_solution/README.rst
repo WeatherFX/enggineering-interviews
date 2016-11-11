@@ -65,7 +65,7 @@ reduce the data set into one answer:
 3. Finally, we have the sets of high and low values, we further reduce the sets by picking the pairs with the less differences.
 
 Visual explanation:
-  .. image:: https://github.com/pkuong/weatherfx/blob/master/weather_workflow.jpg
+  .. image:: https://github.com/paulokuong/engineering-interviews/blob/master/paulokuong_solution/weather_workflow.jpg
 
 
 Running the workflow
