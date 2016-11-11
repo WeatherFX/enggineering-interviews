@@ -68,8 +68,8 @@ Visual explanation:
   .. image:: https://github.com/paulokuong/engineering-interviews/blob/master/paulokuong_solution/weather_workflow.jpg
 
 
-Running the workflow
-====================
+Running the script to get the answer
+====================================
 
 In the directory where raw file is located:
 
